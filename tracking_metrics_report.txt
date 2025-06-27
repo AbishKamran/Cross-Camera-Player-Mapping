@@ -1,0 +1,22 @@
+
+PLAYER TRACKING PERFORMANCE REPORT
+==================================
+
+Basic Statistics:
+- Total frames processed: 66
+- Unique players detected (Cam1): 20
+- Unique players detected (Cam2): 22
+
+Tracking Quality:
+- Average tracking length (Cam1): 35.6 frames
+- Average tracking length (Cam2): 63.0 frames
+- Maximum tracking length (Cam1): 64 frames
+- Maximum tracking length (Cam2): 66 frames
+
+Cross-Camera Performance:
+- Cross-camera consistency: 49.82%
+- Re-identification success rate: 166.67%
+
+ID Stability:
+- ID switches (Cam1): 5
+- ID switches (Cam2): 7
