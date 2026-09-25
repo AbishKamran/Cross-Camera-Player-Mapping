@@ -2,11 +2,11 @@
 
 A computer vision system for tracking and mapping players across multiple camera angles in sports gameplay using YOLOv11 object detection.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a cross-camera player tracking system that maintains consistent player identities across two different camera feeds (broadcast and tactical views) of the same gameplay. The system uses YOLOv11-based object detection to identify players and implements sophisticated mapping algorithms to ensure each player retains a consistent `player_id` across both camera views.
 
-## 🚀 Features
+## Features
 
 - **Multi-Camera Player Detection**: Simultaneous player detection in broadcast and tactical camera feeds
 - **Cross-Camera ID Mapping**: Consistent player identity mapping between different camera angles
@@ -14,7 +14,7 @@ This project implements a cross-camera player tracking system that maintains con
 - **Performance Analytics**: Comprehensive tracking quality metrics and statistics
 - **Real-time Processing**: Efficient processing of video streams with detailed logging
 
-## 📋 Requirements
+## Requirements
 
 ### Prerequisites
 - Python 3.8+
@@ -23,7 +23,7 @@ This project implements a cross-camera player tracking system that maintains con
 - NumPy
 - JSON
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
 ```bash
@@ -42,7 +42,7 @@ pip install -r requirements.txt
 # Model trained specifically for player and ball detection
 ```
 
-## 🎮 Usage
+## Usage
 
 ### Basic Usage
 
@@ -65,7 +65,7 @@ python main.py
 python main.py --broadcast videos/broadcast.mp4 --tactical videos/tacticam.mp4 --output results/
 ```
 
-## 📊 Output Format
+## Output Format
 
 The system generates detailed tracking information including:
 
@@ -77,7 +77,7 @@ Cross-camera mappings (local IDs): {1: 2, 2: 1, 8: 5, 4: 6, 10: 7, 14: 8, 11: 9,
 Common global IDs: {1, 2, 5, 6, 7, 8, 9, 10, 11, 13, 20}
 ```
 
-## 🔧 Algorithm Details
+##  Algorithm Details
 
 ### Detection Pipeline
 1. **YOLOv11 Object Detection**: Identifies players and ball in each frame
@@ -95,7 +95,7 @@ Common global IDs: {1, 2, 5, 6, 7, 8, 9, 10, 11, 13, 20}
 - **Multi-Feature Fusion**: Combines spatial, temporal, and visual features
 - **Adaptive Thresholding**: Dynamic confidence adjustment based on scene complexity
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 The system provides comprehensive performance analytics:
 
@@ -105,7 +105,7 @@ The system provides comprehensive performance analytics:
 - **ID Stability**: Number of identity switches during tracking
 - **Re-identification Success**: Ability to recover lost player identities
 
-## 🎛️ Configuration
+## Configuration
 
 ### Model Parameters
 ```python
