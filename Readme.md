@@ -120,5 +120,3 @@ DISTANCE_THRESHOLD = 100
 SIMILARITY_THRESHOLD = 0.7
 ```
 ---
-
-**Made with ❤️ by Abish**
